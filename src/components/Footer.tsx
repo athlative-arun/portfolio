@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  ExternalLink,
   Github,
   Heart,
   Linkedin,
@@ -20,12 +19,6 @@ const Footer = () => {
     { name: "Contact", href: "#contact" },
   ];
 
-  const featuredProjects = [
-    { name: "Invizo", description: "Retail Billing System" },
-    { name: "DineBoard", description: "Digital Menu System" },
-    { name: "Shringara", description: "Event Decorator Site" },
-    { name: "Jobspark", description: "Job Search Platform" },
-  ];
 
   const scrollToSection = (href: string) => {
     document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
