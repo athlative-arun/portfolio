@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 function Skills() {
-  const [activeTab, setActiveTab] = useState("All");
+  const [activeTab] = useState("All");
 
   const filteredSkills =
     activeTab === "All"
