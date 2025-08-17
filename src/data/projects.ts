@@ -1,9 +1,4 @@
 import {
-  BriefcaseBusiness,
-  ShoppingBag,
-  ShoppingCart,
-  Soup,
-  SprayCan,
   Car,
   MessageSquare,
   Gamepad2,
